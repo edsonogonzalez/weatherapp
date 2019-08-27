@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  background: linear-gradient(rgb(89, 162, 180), rgb(39, 71, 83));
+}
+
+.location,
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.degrees-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degrees-section h2 {
+  font-size: 40px;
+}
+
+.degrees-section span {
+  margin: 10px;
+  font-size: 30px;
+}
